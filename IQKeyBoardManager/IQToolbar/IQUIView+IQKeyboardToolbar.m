@@ -158,7 +158,7 @@
     [items addObject:nilButton];
     
     //  Create a done button to show on keyboard to resign it. Adding a selector to resign it.
-    IQBarButtonItem *doneButton =[[IQBarButtonItem alloc] initWithTitle:text style:UIBarButtonItemStyleDone target:target action:action];
+    IQBarButtonItem *doneButton = [[IQBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleBordered target:target action:action];
     [items addObject:doneButton];
     
     //  Adding button to toolBar.
